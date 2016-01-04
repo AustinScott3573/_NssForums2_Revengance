@@ -69,3 +69,7 @@ c:\users\austin scott\documents\visual studio 2015\Projects\_NssForums2_Revengan
 c:\users\austin scott\documents\visual studio 2015\Projects\_NssForums2_Revengance\_NssForums2_Revengance\obj\Debug\_NssForums2_Revengance.pdb
 c:\users\austin scott\documents\visual studio 2015\Projects\_NssForums2_Revengance\_NssForums2_Revengance\obj\Debug\_NssForums2_Revengance.Migrations.InitialCreate.resources
 c:\users\austin scott\documents\visual studio 2015\Projects\_NssForums2_Revengance\_NssForums2_Revengance\obj\Debug\_NssForums2_Revengance.csproj.GenerateResource.Cache
+c:\users\austin scott\documents\visual studio 2015\Projects\_NssForums2_Revengance\_NssForums2_Revengance\bin\PagedList.dll
+c:\users\austin scott\documents\visual studio 2015\Projects\_NssForums2_Revengance\_NssForums2_Revengance\bin\PagedList.Mvc.dll
+c:\users\austin scott\documents\visual studio 2015\Projects\_NssForums2_Revengance\_NssForums2_Revengance\bin\PagedList.xml
+c:\users\austin scott\documents\visual studio 2015\Projects\_NssForums2_Revengance\_NssForums2_Revengance\bin\PagedList.Mvc.xml
