@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace _NssForums2_Revengance.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : ApplicationBaseController
     {
         public ActionResult Index()
         {

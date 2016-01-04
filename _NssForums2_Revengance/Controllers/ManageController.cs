@@ -11,7 +11,7 @@ using _NssForums2_Revengance.Models;
 namespace _NssForums2_Revengance.Controllers
 {
     [Authorize]
-    public class ManageController : Controller
+    public class ManageController : ApplicationBaseController
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
