@@ -7,8 +7,12 @@ using SendGrid.SmtpApi;
 using SendGrid;
 using System.Net;
 using System.Net.Mail;
+using System.Data.Entity;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using _NssForums2_Revengance.Models;
 using _NssForums2_Revengance.ViewModels;
+
 
 namespace _NssForums2_Revengance.Controllers
 {

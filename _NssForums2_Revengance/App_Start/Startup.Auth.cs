@@ -45,23 +45,23 @@ namespace _NssForums2_Revengance
             // This is similar to the RememberMe option when you log in.
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
-            // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            //uncomment the following lines to enable logging in with third party login providers
+            //app.usemicrosoftaccountauthentication(
+            //    clientid: "",
+            //    clientsecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            //app.usetwitterauthentication(
+            //   consumerkey: "",
+            //   consumersecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            //app.usefacebookauthentication(
+            //   appid: "",
+            //   appsecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            //app.usegoogleauthentication(new googleoauth2authenticationoptions()
             //{
-            //    ClientId = "",
-            //    ClientSecret = ""
+            //    clientid = "",
+            //    clientsecret = ""
             //});
         }
     }

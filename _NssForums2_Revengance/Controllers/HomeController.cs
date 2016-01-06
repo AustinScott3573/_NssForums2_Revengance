@@ -5,12 +5,20 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using _NssForums2_Revengance.ViewModels;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using PagedList;
 using PagedList.Mvc;
+using System.Data.Entity;
 using _NssForums2_Revengance.Controllers;
 
 public class HomeController : ApplicationBaseController
 {
+    //public class ApplicationDbContext : DbContext
+    //{
+    //    public DbSet<Message> Messages { get; set; }
+    //    public DbSet<Reply> Replies { get; set; }
+    //}
     private ApplicationDbContext dbContext = new ApplicationDbContext();
     [Authorize]
     public ActionResult Index(int? Id, int? page)
@@ -58,5 +66,4 @@ public class HomeController : ApplicationBaseController
         return View(vm);
     }
 
-}
 }

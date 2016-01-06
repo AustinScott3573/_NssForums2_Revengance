@@ -9,6 +9,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using _NssForums2_Revengance.Models;
+using System.Data.Entity;
+
 
 namespace _NssForums2_Revengance.Controllers
 {

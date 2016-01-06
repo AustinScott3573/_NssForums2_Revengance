@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using _NssForums2_Revengance.Models;
+using System.Data.Entity;
+
 
 namespace _NssForums2_Revengance.Controllers
 {
