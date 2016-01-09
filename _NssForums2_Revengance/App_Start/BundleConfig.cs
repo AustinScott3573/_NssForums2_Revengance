@@ -28,14 +28,17 @@ public class BundleConfig
         bundles.Add(new ScriptBundle("~/bundles/less").Include(
                "~/Scripts/less.js"));
 
-        bundles.Add(new StyleBundle("~/Content/css").Include(
-                  "~/Content/bootstrap.css",
-                  "~/Content/site.css"));
-
         bundles.Add(new StyleBundle("~/Content/less").Include(
-                  "~/Content/less/style.less"));
+            "~/Content/less/style.less"));
+
+        bundles.Add(new StyleBundle("~/Content/css").Include(
+                "~/Content/bootstrap.css",
+                "~/Content/site.css"));
+
+            BundleTable.EnableOptimizations = true;
 
 
+
+        }
     }
-}
 }
